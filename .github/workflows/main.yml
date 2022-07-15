@@ -19,4 +19,4 @@ jobs:
       uses: actions/upload-artifact@v3.1.0
       with:
         name: Artifact
-        path: plot_iris_exercise.html
+        path: DZ1.html

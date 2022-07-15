@@ -12,7 +12,7 @@ jobs:
         cache: pip
         python-version: '3.8'
     - name: Install Dependencies
-      run: cat requirements.txt | xargs -n 1 pip install
+      run: pip install -r requirements.txt
     - name: Exeute Notebook 
       run: jupyter-nbconvert --execute plot_iris_exercise.ipynb --to html
     - name: Upload a Build Artifact 

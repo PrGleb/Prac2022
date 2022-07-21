@@ -20,4 +20,4 @@ numpy
 matplotlib
 sklearn
 ipykernel
-panda
+pandas

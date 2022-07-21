@@ -21,3 +21,4 @@ matplotlib
 sklearn
 ipykernel
 pandas
+seaborn
